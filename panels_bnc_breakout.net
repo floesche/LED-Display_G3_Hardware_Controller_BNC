@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 30 Nov 2010 09:28:32 PM PST
+# EESchema Netlist Version 1.1 created  Tue 14 Dec 2010 02:35:41 PM PST
 (
  ( /4CF33651 HEADER_5x2_LARGE P1 CONN_5X2
   ( 1 ? )
@@ -13,7 +13,7 @@
   ( 10 /ADC1 )
  )
  ( /4CF33655 HEADER_5x2_LARGE P2 CONN_5X2
-  ( 1 /5V/3V3 )
+  ( 1 /3V3 )
   ( 2 /GND )
   ( 3 /ADC2 )
   ( 4 /ADC3 )
@@ -25,7 +25,7 @@
   ( 10 /SDA )
  )
  ( /4CF40D8E conn_sh_4x1 P3 CONN_4
-  ( 1 /5V/3V3 )
+  ( 1 /3V3 )
   ( 2 /GND )
   ( 3 /SCL )
   ( 4 /SDA )
@@ -71,7 +71,7 @@
   ( 2 /GND )
  )
  ( /4CF5A350 conn_sh_26x2 P14 CONN_26
-  ( 1 /5V/3V3 )
+  ( 1 /3V3 )
   ( 2 /GND )
   ( 3 /ADC0 )
   ( 4 /ADC1 )

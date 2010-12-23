@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 30 Nov 2010 09:37:56 PM PST
+EESchema Schematic File Version 2  date Tue 14 Dec 2010 03:21:56 PM PST
 LIBS:power,/home/wbd/work/iorodeo/products/panels_expansion/panels_bnc_breakout/lib/panels_bnc_breakout,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./panels_bnc_breakout.cache
 EELAYER 24  0
 EELAYER END
@@ -243,7 +243,7 @@ ADC0
 Text Label 8650 1600 0    60   ~ 0
 GND
 Text Label 8650 1500 0    60   ~ 0
-5V/3V3
+3V3
 Text Notes 9000 4350 0    60   ~ 0
 REAR CONNECTOR
 NoConn ~ 9250 3900
@@ -397,7 +397,7 @@ ADC2
 Text Label 5350 2700 2    60   ~ 0
 GND
 Text Label 3450 2700 0    60   ~ 0
-5V/3V3
+3V3
 Text Label 3450 3000 0    60   ~ 0
 DAC2/ADC6
 Text Label 5350 2050 2    60   ~ 0
