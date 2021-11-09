@@ -9,9 +9,9 @@ nav_order: 3
 
 ![Controller pins](assets/controller_pin-numbers.jpg){:.ifr .pop}
 
-This is an additional PCB for the Controller which adds 10 BNC connections to the [Controller]({{site.baseurl}/Generation%203/Controller/docs/g3_controller.html). Have a look at the preview of the [schematics](assets/panels_bnc_breakout.pdf).
+This is an additional PCB for the Controller which adds 10 BNC connections to the [Controller]({{site.baseurl}}/Generation%203/Controller/docs/g3_controller.html). Have a look at the preview of the [schematics](assets/panels_bnc_breakout.pdf).
 
-The rear breakout connection of the [BNC controller]({{site.baseurl}/Generation%203/Controller/docs/g3_controller.html) can be used to directly access the following signals:
+The rear breakout connection of the [BNC controller]({{site.baseurl}}/Generation%203/Controller/docs/g3_controller.html) can be used to directly access the following signals:
 
 | signal | 26pin header | 25pin D-sub (rear connector)|
 |:------ |:------------:|:---------------------------:|
