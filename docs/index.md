@@ -2,7 +2,7 @@
 title: BNC Breakout
 parent: Hardware
 grand_parent: Generation 3
-nav_order: 3
+nav_order: 4
 ---
 
 # BNC Breakout
