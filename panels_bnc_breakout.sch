@@ -48,20 +48,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 4050 4050 4050
 Wire Wire Line
-	9250 2900 8650 2900
-Wire Wire Line
-	9250 2700 8650 2700
-Wire Wire Line
-	9250 2500 8650 2500
-Wire Wire Line
-	9250 2300 8650 2300
-Wire Wire Line
-	9250 2100 8650 2100
-Wire Wire Line
-	9250 1900 8650 1900
-Wire Wire Line
-	9250 1700 8650 1700
-Wire Wire Line
 	6650 5550 7200 5550
 Wire Wire Line
 	6650 4650 7200 4650
@@ -143,23 +129,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2700 4700 2700
 Wire Wire Line
-	9250 1500 8650 1500
-Wire Wire Line
-	8650 1600 9250 1600
-Wire Wire Line
-	9250 1800 8650 1800
-Wire Wire Line
-	9250 2000 8650 2000
-Wire Wire Line
-	9250 2200 8650 2200
-Wire Wire Line
-	9250 2400 8650 2400
-Wire Wire Line
-	9250 2600 8650 2600
-Wire Wire Line
-	9250 2800 8650 2800
-Wire Wire Line
-	9250 3000 8650 3000
+	8750 1600 9300 1600
 Wire Wire Line
 	4500 3850 3050 3850
 Wire Wire Line
@@ -173,16 +143,15 @@ Wire Wire Line
 Wire Wire Line
 	5550 3100 4700 3100
 NoConn ~ 4200 1650
-NoConn ~ 9250 4000
 $Comp
-L Connector_Generic:Conn_01x26 P14
+L Connector:DB25_Male P14
 U 1 1 4CF5A350
-P 9450 2700
-F 0 "P14" V 9400 2700 60  0000 C CNN
-F 1 "CONN_26" V 9500 2700 60  0000 C CNN
-F 2 "" H 9450 2700 50  0001 C CNN
-F 3 "" H 9450 2700 50  0001 C CNN
-	1    9450 2700
+P 9600 2700
+F 0 "P14" V 9550 2700 60  0000 C CNN
+F 1 "CONN_26" V 9650 2700 60  0000 C CNN
+F 2 "" H 9600 2700 50  0001 C CNN
+F 3 "" H 9600 2700 50  0001 C CNN
+	1    9600 2700
 	1    0    0    -1  
 $EndComp
 Text Notes 4350 4250 0    60   ~ 0
@@ -222,49 +191,49 @@ F 3 "" H 5700 2600 50  0001 C CNN
 	1    5700 2600
 	1    0    0    -1  
 $EndComp
-Text Label 8650 3000 0    60   ~ 0
+Text Label 8750 3000 0    60   ~ 0
 INT3
-Text Label 8650 2900 0    60   ~ 0
+Text Label 8750 2900 0    60   ~ 0
 INT2
-Text Label 8650 2800 0    60   ~ 0
+Text Label 8750 2800 0    60   ~ 0
 INT1
-Text Label 8650 2700 0    60   ~ 0
+Text Label 8750 2700 0    60   ~ 0
 INT0
-Text Label 8650 2600 0    60   ~ 0
+Text Label 8750 2600 0    60   ~ 0
 DAC3
-Text Label 8650 2500 0    60   ~ 0
+Text Label 8750 2500 0    60   ~ 0
 DAC2
-Text Label 8650 2400 0    60   ~ 0
+Text Label 8750 2400 0    60   ~ 0
 DAC1
-Text Label 8650 2300 0    60   ~ 0
+Text Label 8750 2300 0    60   ~ 0
 DAC0
-Text Label 8650 2200 0    60   ~ 0
+Text Label 8750 2200 0    60   ~ 0
 ADC5
-Text Label 8650 2100 0    60   ~ 0
+Text Label 8750 2100 0    60   ~ 0
 ADC4
-Text Label 8650 2000 0    60   ~ 0
+Text Label 8750 2000 0    60   ~ 0
 ADC3
-Text Label 8650 1900 0    60   ~ 0
+Text Label 8750 1900 0    60   ~ 0
 ADC2
-Text Label 8650 1800 0    60   ~ 0
+Text Label 8750 1800 0    60   ~ 0
 ADC1
-Text Label 8650 1700 0    60   ~ 0
+Text Label 8750 1700 0    60   ~ 0
 ADC0
-Text Label 8650 1600 0    60   ~ 0
+Text Label 8750 1600 0    60   ~ 0
 GND
-Text Label 8650 1500 0    60   ~ 0
+Text Label 8750 1500 0    60   ~ 0
 5V
 Text Notes 9000 4350 0    60   ~ 0
 REAR CONNECTOR
-NoConn ~ 9250 3900
-NoConn ~ 9250 3800
-NoConn ~ 9250 3700
-NoConn ~ 9250 3600
-NoConn ~ 9250 3500
-NoConn ~ 9250 3400
-NoConn ~ 9250 3300
-NoConn ~ 9250 3200
-NoConn ~ 9250 3100
+NoConn ~ 9300 3900
+NoConn ~ 9300 3800
+NoConn ~ 9300 3700
+NoConn ~ 9300 3600
+NoConn ~ 9300 3500
+NoConn ~ 9300 3400
+NoConn ~ 9300 3300
+NoConn ~ 9300 3200
+NoConn ~ 9300 3100
 $Comp
 L power:GND #PWR04
 U 1 1 4CF33E9E
@@ -501,4 +470,34 @@ Wire Wire Line
 	7050 4400 7050 3950
 Wire Wire Line
 	7050 5300 7050 4850
+Wire Wire Line
+	9300 1500 8750 1500
+Wire Wire Line
+	9300 1700 8750 1700
+Wire Wire Line
+	9300 1800 8750 1800
+Wire Wire Line
+	9300 1900 8750 1900
+Wire Wire Line
+	9300 2000 8750 2000
+Wire Wire Line
+	9300 2100 8750 2100
+Wire Wire Line
+	9300 2200 8750 2200
+Wire Wire Line
+	9300 2300 8750 2300
+Wire Wire Line
+	9300 2400 8750 2400
+Wire Wire Line
+	9300 2500 8750 2500
+Wire Wire Line
+	9300 2600 8750 2600
+Wire Wire Line
+	9300 2700 8750 2700
+Wire Wire Line
+	9300 2800 8750 2800
+Wire Wire Line
+	9300 2900 8750 2900
+Wire Wire Line
+	9300 3000 8750 3000
 $EndSCHEMATC

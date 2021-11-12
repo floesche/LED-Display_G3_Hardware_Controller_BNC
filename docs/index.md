@@ -7,9 +7,15 @@ nav_order: 4
 
 # BNC Breakout
 
-![Controller pins](assets/controller_pin-numbers.jpg){:.ifr .pop}
+![BNC Breakout PCB](assets/panels_bnc_breakout_front.png){:.ifr .pop}
+![BNC Breakout PCB](assets/panels_bnc_breakout_back.png){:.ifr .pop .clear}
 
 This is an additional PCB for the Controller which adds 10 BNC connections to the [Controller]({{site.baseurl}}/Generation%203/Controller/docs/g3_controller.html). Have a look at the preview of the [schematics](assets/panels_bnc_breakout.pdf).
+
+## Connections
+{:.clear}
+
+![Controller pins](assets/controller_pin-numbers.jpg){:.ifr .pop}
 
 The rear breakout connection of the [BNC controller]({{site.baseurl}}/Generation%203/Controller/docs/g3_controller.html) can be used to directly access the following signals:
 
