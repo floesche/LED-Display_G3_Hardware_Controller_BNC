@@ -13,7 +13,6 @@ nav_order: 4
 This is an additional PCB for the Controller which adds 10 BNC connections to the [Controller]({{site.baseurl}}/Generation%203/Controller/docs/). Have a look at the preview of the [schematics](assets/panels_bnc_breakout.pdf).
 
 ## Connections
-{:.clear}
 
 ![Controller pins](assets/controller_pin-numbers.jpg){:.ifr .pop}
 
